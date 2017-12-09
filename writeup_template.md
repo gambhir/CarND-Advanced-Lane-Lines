@@ -2,7 +2,7 @@
 
 ## Udacity Self Driving Car Engineer Nanodegree - Project 4
 
-![Final Result Gif](./advance_lane.png)
+![Final Result Gif](./advance_lane.gif)
 
 The project goal is to develop a pipeline to process a video stream from and output an annotated video that detects:
 - The positions of the lane lines 
@@ -89,7 +89,7 @@ The gif below is the result of my pipeline running on the test video provided fo
 
 |Project Video|
 |-------------|
-|![Final Result Gif](./advance_lane.png)
+|![Final Result Gif](./advance_lane.gif)
 
 ### Possible Improvement:
 The pipeline does a fairly decent job in most cases but might not perform in case of shadows. Since there are multitude of factors shadow, weather conditions it might be better to use a deeplearning model in conjunction with computer vision. 
