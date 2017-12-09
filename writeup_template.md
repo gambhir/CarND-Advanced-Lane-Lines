@@ -74,7 +74,7 @@ The final radius of curvature was taken by average the left and right curve radi
 ### Step 7: Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 The final step in processing the images was to plot the polynomials on to the warped image, fill the space between the polynomials to highlight the lane that the car is in, use another perspective trasformation to unwarp the image from birds eye back to its original perspective, and print the distance from center and radius of curvature on to the final annotated image.
 
-![Filled Image](./output_images/fill_pollygone.png)
+![Filled Image](./advance_lane.png)
 
 ## Video Processing Pipeline:
 After establishing a pipeline to process still images, the final step was to expand the pipeline to process videos frame-by-frame, to simulate what it would be like to process an image stream in real time on an actual vehicle. 
