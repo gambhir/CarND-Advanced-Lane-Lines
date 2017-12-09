@@ -89,7 +89,7 @@ The gif below is the result of my pipeline running on the test video provided fo
 
 |Project Video|
 |-------------|
-|![Final Result Gif](./advance_lane.gif)
+|![Final Result Gif](./advance_lane.png)
 
 ### Possible Improvement:
 The pipeline does a fairly decent job in most cases but might not perform in case of shadows. Since there are multitude of factors shadow, weather conditions it might be better to use a deeplearning model in conjunction with computer vision. 
